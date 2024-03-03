@@ -1,0 +1,55 @@
+* {
+  box-sizing:border-box;
+}
+body {
+
+  font-family: sans-serif;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.kotak {
+  width: 40px;
+  height: 40px;
+  border: 1px solid brown;
+  background-color: rgb(247, 218, 182);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: brown;
+  cursor: pointer;
+
+}
+.kotak:hover{
+  background-color: white;
+}
+
+.papan {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  height: 120px;
+}
+
+.game {
+  
+  display: flex;
+  
+}
+
+.status {
+  font-size: smaller;
+  font-weight: bold;
+  color: brown;
+  background-color: rgb(247, 218, 182) ;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid brown;
+  border-radius: 3px;
+}
+
+li {
+  color: brown;
+  font-size: smaller;
+  font-weight: bold;
+}
